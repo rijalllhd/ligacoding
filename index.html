@@ -1,0 +1,692 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="dist/output.css" rel="stylesheet">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body class="font-sans bg-slate-50">
+  
+  <!-- navbar -->
+  <div class="container mx-auto py-6 px-32 bg-white">
+    <div class="flex ">
+      <!-- left colomn -->
+      <div class="w-1/2">
+        <img src="src/assets/logo-ligasmk-dark.png" alt="">
+      </div>
+
+      <!-- right col -->
+      <div class="w-1/2 flex justify-end">
+        <ul class="flex space-x-4 font-semibold">
+          <li class="flex items-center">
+            <a class="me-1 text-indigo-500" href="#">Home</a>
+            <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_591)">
+              <path d="M4.70123 10.1868L0.654358 6.16724C0.490295 6.00317 0.490295 5.84823 0.654358 5.70239L1.17389 5.15552C1.33795 5.00968 1.4929 5.00968 1.63873 5.15552L4.91998 8.40942L8.20123 5.15552C8.34707 5.00968 8.50201 5.00968 8.66608 5.15552L9.18561 5.70239C9.34967 5.84823 9.34967 6.00317 9.18561 6.16724L5.13873 10.1868C4.9929 10.3326 4.84707 10.3326 4.70123 10.1868Z" fill="rgb(99 102 241)"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_591">
+              <rect width="8.75" height="14" fill="white" transform="matrix(1 0 0 -1 0.531311 14.6711)"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </li>
+          <li class="flex items-center">
+            <a class="me-1" href="#">About Us</a>
+            <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_591)">
+              <path d="M4.70123 10.1868L0.654358 6.16724C0.490295 6.00317 0.490295 5.84823 0.654358 5.70239L1.17389 5.15552C1.33795 5.00968 1.4929 5.00968 1.63873 5.15552L4.91998 8.40942L8.20123 5.15552C8.34707 5.00968 8.50201 5.00968 8.66608 5.15552L9.18561 5.70239C9.34967 5.84823 9.34967 6.00317 9.18561 6.16724L5.13873 10.1868C4.9929 10.3326 4.84707 10.3326 4.70123 10.1868Z" fill="#2F3034"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_591">
+              <rect width="8.75" height="14" fill="white" transform="matrix(1 0 0 -1 0.531311 14.6711)"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </li>
+          <li class="flex items-center">
+            <a class="me-1" href="#">Blog</a>
+            <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_591)">
+              <path d="M4.70123 10.1868L0.654358 6.16724C0.490295 6.00317 0.490295 5.84823 0.654358 5.70239L1.17389 5.15552C1.33795 5.00968 1.4929 5.00968 1.63873 5.15552L4.91998 8.40942L8.20123 5.15552C8.34707 5.00968 8.50201 5.00968 8.66608 5.15552L9.18561 5.70239C9.34967 5.84823 9.34967 6.00317 9.18561 6.16724L5.13873 10.1868C4.9929 10.3326 4.84707 10.3326 4.70123 10.1868Z" fill="#2F3034"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_591">
+              <rect width="8.75" height="14" fill="white" transform="matrix(1 0 0 -1 0.531311 14.6711)"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </li>
+          <li class="flex items-center">
+            <a class="me-1" href="#">Kelas</a>
+            <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_591)">
+              <path d="M4.70123 10.1868L0.654358 6.16724C0.490295 6.00317 0.490295 5.84823 0.654358 5.70239L1.17389 5.15552C1.33795 5.00968 1.4929 5.00968 1.63873 5.15552L4.91998 8.40942L8.20123 5.15552C8.34707 5.00968 8.50201 5.00968 8.66608 5.15552L9.18561 5.70239C9.34967 5.84823 9.34967 6.00317 9.18561 6.16724L5.13873 10.1868C4.9929 10.3326 4.84707 10.3326 4.70123 10.1868Z" fill="#2F3034"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_591">
+              <rect width="8.75" height="14" fill="white" transform="matrix(1 0 0 -1 0.531311 14.6711)"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </li>
+          <li class="flex items-center">
+            <a class="me-1" href="#">Kontak</a>
+            <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_591)">
+              <path d="M4.70123 10.1868L0.654358 6.16724C0.490295 6.00317 0.490295 5.84823 0.654358 5.70239L1.17389 5.15552C1.33795 5.00968 1.4929 5.00968 1.63873 5.15552L4.91998 8.40942L8.20123 5.15552C8.34707 5.00968 8.50201 5.00968 8.66608 5.15552L9.18561 5.70239C9.34967 5.84823 9.34967 6.00317 9.18561 6.16724L5.13873 10.1868C4.9929 10.3326 4.84707 10.3326 4.70123 10.1868Z" fill="#2F3034"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_591">
+              <rect width="8.75" height="14" fill="white" transform="matrix(1 0 0 -1 0.531311 14.6711)"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- jumbotron -->
+  <div class="container mx-auto py-6 px-32 bg-blue-100">
+    <div class="flex ">
+      <!-- left col -->
+      <div class="w-1/2 py-16">
+        <p class="text-6xl font-semibold ">Bergabunglah dengan jutaan orang dan belajar hal baru</p>
+        <p class="text-xl my-8 font-light">mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta di bidang teknologi digital.</p>
+
+        <button class="flex bg-blue-700 text-white py-2 px-5 rounded items-center">
+          <span>Mulai belajar</span>
+          
+          <svg class="ms-12" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1_19)">
+            <path d="M14.7863 3.99756C15.0397 3.79834 15.2931 3.79834 15.5466 3.99756L21.8184 8.38037C22.1035 8.55745 22.1035 8.73454 21.8184 8.91162L15.5466 13.2944C15.2931 13.4937 15.0397 13.4937 14.7863 13.2944L13.8361 12.6636C13.551 12.4644 13.551 12.2762 13.8361 12.0991L17.6847 9.50928H1.29242C0.912315 9.50928 0.72226 9.37646 0.72226 9.11084V8.18115C0.72226 7.91553 0.912315 7.78271 1.29242 7.78271H17.6847L13.8361 5.19287C13.551 5.01579 13.551 4.82764 13.8361 4.62842L14.7863 3.99756Z" fill="white"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_1_19">
+            <rect width="21.2405" height="17" fill="white" transform="matrix(1 0 0 -1 0.721313 17.146)"/>
+            </clipPath>
+            </defs>
+            </svg>
+        </button>
+
+      </div>
+
+      <!-- right col -->
+      <div class="w-1/2">
+        <img src="src/assets/shape-diagram.png" alt="" class="ps-32 py-5 ms-10 w-auto">
+      </div>
+    </div>
+  </div>
+
+  <!-- break content -->
+  <div class="container mx-auto py-12 px-32 bg-yellow-500"> 
+    <div class="grid grid-cols-3 gap-4">
+      <!-- left -->
+      <div class="flex items-center">
+        <div class="">
+          <img src="src/assets/icon-online-education.svg" alt="">        
+        </div>
+        <div class="ms-5">
+          <p class="font-bold text-xl">Membangun Karir</p>
+          <p>Semua yang butuh kerja</p>
+        </div>
+      </div>
+
+      <!-- center -->
+      <div class="flex items-center">
+        <div class="">
+          <img src="src/assets/icon-globe-handphone.svg" alt="">
+        </div>
+        <div class="ms-5">
+          <p class="font-bold text-xl">Cari Materi Belajar</p>
+          <p>Seberapa pengetahuan kamu</p>
+        </div>
+      </div>
+
+      <!-- right -->
+      <div class="flex items-center">
+        <div class="">
+          <img src="src/assets/icon-online-education-laptop.svg" alt="">
+        </div>
+        <div class="ms-5">
+          <p class="font-bold text-xl">Kuasai Skill Baru</p>
+          <p>Fokus apa yang dibutuhkan</p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- pembelajaran -->
+  <div class="container mx-auto py-12 px-32">
+
+    <!-- nav -->
+    <div class="flex font-bold items-center mt-12 mb-9">
+      <!-- left colomn -->
+      <div class="w-1/2">
+        <p class="text-3xl">Pembelajaran populer</p>
+      </div>
+
+      <!-- right -->
+      <div class="w-1/2 flex justify-end">
+        <ul class="flex space-x-4 font-semibold">
+          <li class="px-3 border border-slate-300 shadow-2xl bg-white">
+            <a href="#">Javascript</a>
+          </li>
+          <li class="opacity-40">
+            <a href="#">Phyton</a>
+          </li>
+          <li class="opacity-40">
+            <a href="#">Web Development</a>
+          </li>
+          <li class="opacity-40">
+            <a href="#">Art & Design</a>
+          </li>
+          <li class="opacity-40">
+            <a href="#">Business</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- card -->
+    <div class="grid grid-cols-4 gap-4">
+      <div class="border-2">
+        <img src="src/assets/course-1.png" alt="">
+        <div class="p-4">
+          <p class="text-sm font-bold text-blue-900 my-2">Alen Mask</p>
+          <p class="text-lg font-bold">Why Learn Intermediate SQL for Marketers?</p>
+
+          <div class="flex my-4">
+            <div class="flex items-center">
+              <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_68)">
+                <path d="M11.4341 3.18958H0.668518C0.465393 3.18958 0.363831 3.08801 0.363831 2.88489V2.07239C0.363831 1.86926 0.465393 1.7677 0.668518 1.7677H11.4341C11.6373 1.7677 11.7388 1.86926 11.7388 2.07239V2.88489C11.7388 3.08801 11.6373 3.18958 11.4341 3.18958ZM11.4341 7.25208H0.668518C0.465393 7.25208 0.363831 7.15051 0.363831 6.94739V6.13489C0.363831 5.93176 0.465393 5.8302 0.668518 5.8302H11.4341C11.6373 5.8302 11.7388 5.93176 11.7388 6.13489V6.94739C11.7388 7.15051 11.6373 7.25208 11.4341 7.25208ZM11.4341 11.3146H0.668518C0.465393 11.3146 0.363831 11.213 0.363831 11.0099V10.1974C0.363831 9.99426 0.465393 9.8927 0.668518 9.8927H11.4341C11.6373 9.8927 11.7388 9.99426 11.7388 10.1974V11.0099C11.7388 11.213 11.6373 11.3146 11.4341 11.3146Z" fill="#101213"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1_68">
+                <rect width="11.38" height="13" fill="white" transform="matrix(1 0 0 -1 0.361328 13.0411)"/>
+                </clipPath>
+                </defs>
+              </svg>
+              <p class="text-sm ms-2">Beginner</p>
+            </div>
+
+            <div class="flex items-center ms-5">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.6626 0.666138C13.3228 0.666138 13.8813 1.22473 13.8813 1.88489V10.0099C13.8813 10.6954 13.3228 11.2286 12.6626 11.2286H11.4438V12.4474C11.4438 13.1329 10.8853 13.6661 10.2251 13.6661H2.1001C1.41455 13.6661 0.881348 13.1329 0.881348 12.4474V4.32239C0.881348 3.66223 1.41455 3.10364 2.1001 3.10364H3.31885V1.88489C3.31885 1.22473 3.85205 0.666138 4.5376 0.666138H12.6626ZM10.0728 12.4474C10.1489 12.4474 10.2251 12.3966 10.2251 12.295V11.2286H4.5376C3.85205 11.2286 3.31885 10.6954 3.31885 10.0099V4.32239H2.25244C2.15088 4.32239 2.1001 4.39856 2.1001 4.47473V12.295C2.1001 12.3966 2.15088 12.4474 2.25244 12.4474H10.0728ZM12.5103 10.0099C12.5864 10.0099 12.6626 9.95911 12.6626 9.85754V2.03723C12.6626 1.96106 12.5864 1.88489 12.5103 1.88489H4.68994C4.58838 1.88489 4.5376 1.96106 4.5376 2.03723V9.85754C4.5376 9.95911 4.58838 10.0099 4.68994 10.0099H12.5103Z" fill="#101213"/>
+              </svg>
+              <p class="text-sm ms-2">3 Lessons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-2">
+        <img src="src/assets/course-2.png" alt="">
+        <div class="p-4">
+          <p class="text-sm font-bold text-blue-900 my-2">Alen Mask</p>
+          <p class="text-lg font-bold">Why Learn Intermediate SQL for Marketers?</p>
+
+          <div class="flex my-4">
+            <div class="flex items-center">
+              <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_68)">
+                <path d="M11.4341 3.18958H0.668518C0.465393 3.18958 0.363831 3.08801 0.363831 2.88489V2.07239C0.363831 1.86926 0.465393 1.7677 0.668518 1.7677H11.4341C11.6373 1.7677 11.7388 1.86926 11.7388 2.07239V2.88489C11.7388 3.08801 11.6373 3.18958 11.4341 3.18958ZM11.4341 7.25208H0.668518C0.465393 7.25208 0.363831 7.15051 0.363831 6.94739V6.13489C0.363831 5.93176 0.465393 5.8302 0.668518 5.8302H11.4341C11.6373 5.8302 11.7388 5.93176 11.7388 6.13489V6.94739C11.7388 7.15051 11.6373 7.25208 11.4341 7.25208ZM11.4341 11.3146H0.668518C0.465393 11.3146 0.363831 11.213 0.363831 11.0099V10.1974C0.363831 9.99426 0.465393 9.8927 0.668518 9.8927H11.4341C11.6373 9.8927 11.7388 9.99426 11.7388 10.1974V11.0099C11.7388 11.213 11.6373 11.3146 11.4341 11.3146Z" fill="#101213"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1_68">
+                <rect width="11.38" height="13" fill="white" transform="matrix(1 0 0 -1 0.361328 13.0411)"/>
+                </clipPath>
+                </defs>
+              </svg>
+              <p class="text-sm ms-2">Beginner</p>
+            </div>
+
+            <div class="flex items-center ms-5">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.6626 0.666138C13.3228 0.666138 13.8813 1.22473 13.8813 1.88489V10.0099C13.8813 10.6954 13.3228 11.2286 12.6626 11.2286H11.4438V12.4474C11.4438 13.1329 10.8853 13.6661 10.2251 13.6661H2.1001C1.41455 13.6661 0.881348 13.1329 0.881348 12.4474V4.32239C0.881348 3.66223 1.41455 3.10364 2.1001 3.10364H3.31885V1.88489C3.31885 1.22473 3.85205 0.666138 4.5376 0.666138H12.6626ZM10.0728 12.4474C10.1489 12.4474 10.2251 12.3966 10.2251 12.295V11.2286H4.5376C3.85205 11.2286 3.31885 10.6954 3.31885 10.0099V4.32239H2.25244C2.15088 4.32239 2.1001 4.39856 2.1001 4.47473V12.295C2.1001 12.3966 2.15088 12.4474 2.25244 12.4474H10.0728ZM12.5103 10.0099C12.5864 10.0099 12.6626 9.95911 12.6626 9.85754V2.03723C12.6626 1.96106 12.5864 1.88489 12.5103 1.88489H4.68994C4.58838 1.88489 4.5376 1.96106 4.5376 2.03723V9.85754C4.5376 9.95911 4.58838 10.0099 4.68994 10.0099H12.5103Z" fill="#101213"/>
+              </svg>
+              <p class="text-sm ms-2">3 Lessons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-2">
+        <img src="src/assets/course-3.png" alt="">
+        <div class="p-4">
+          <p class="text-sm font-bold text-blue-900 my-2">Alen Mask</p>
+          <p class="text-lg font-bold">Why Learn Intermediate SQL for Marketers?</p>
+
+          <div class="flex my-4">
+            <div class="flex items-center">
+              <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_68)">
+                <path d="M11.4341 3.18958H0.668518C0.465393 3.18958 0.363831 3.08801 0.363831 2.88489V2.07239C0.363831 1.86926 0.465393 1.7677 0.668518 1.7677H11.4341C11.6373 1.7677 11.7388 1.86926 11.7388 2.07239V2.88489C11.7388 3.08801 11.6373 3.18958 11.4341 3.18958ZM11.4341 7.25208H0.668518C0.465393 7.25208 0.363831 7.15051 0.363831 6.94739V6.13489C0.363831 5.93176 0.465393 5.8302 0.668518 5.8302H11.4341C11.6373 5.8302 11.7388 5.93176 11.7388 6.13489V6.94739C11.7388 7.15051 11.6373 7.25208 11.4341 7.25208ZM11.4341 11.3146H0.668518C0.465393 11.3146 0.363831 11.213 0.363831 11.0099V10.1974C0.363831 9.99426 0.465393 9.8927 0.668518 9.8927H11.4341C11.6373 9.8927 11.7388 9.99426 11.7388 10.1974V11.0099C11.7388 11.213 11.6373 11.3146 11.4341 11.3146Z" fill="#101213"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1_68">
+                <rect width="11.38" height="13" fill="white" transform="matrix(1 0 0 -1 0.361328 13.0411)"/>
+                </clipPath>
+                </defs>
+              </svg>
+              <p class="text-sm ms-2">Beginner</p>
+            </div>
+
+            <div class="flex items-center ms-5">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.6626 0.666138C13.3228 0.666138 13.8813 1.22473 13.8813 1.88489V10.0099C13.8813 10.6954 13.3228 11.2286 12.6626 11.2286H11.4438V12.4474C11.4438 13.1329 10.8853 13.6661 10.2251 13.6661H2.1001C1.41455 13.6661 0.881348 13.1329 0.881348 12.4474V4.32239C0.881348 3.66223 1.41455 3.10364 2.1001 3.10364H3.31885V1.88489C3.31885 1.22473 3.85205 0.666138 4.5376 0.666138H12.6626ZM10.0728 12.4474C10.1489 12.4474 10.2251 12.3966 10.2251 12.295V11.2286H4.5376C3.85205 11.2286 3.31885 10.6954 3.31885 10.0099V4.32239H2.25244C2.15088 4.32239 2.1001 4.39856 2.1001 4.47473V12.295C2.1001 12.3966 2.15088 12.4474 2.25244 12.4474H10.0728ZM12.5103 10.0099C12.5864 10.0099 12.6626 9.95911 12.6626 9.85754V2.03723C12.6626 1.96106 12.5864 1.88489 12.5103 1.88489H4.68994C4.58838 1.88489 4.5376 1.96106 4.5376 2.03723V9.85754C4.5376 9.95911 4.58838 10.0099 4.68994 10.0099H12.5103Z" fill="#101213"/>
+              </svg>
+              <p class="text-sm ms-2">3 Lessons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-2">
+        <img src="src/assets/course-4.png" alt="">
+        <div class="p-4">
+          <p class="text-sm font-bold text-blue-900 my-2">Alen Mask</p>
+          <p class="text-lg font-bold">Why Learn Intermediate SQL for Marketers?</p>
+
+          <div class="flex my-4">
+            <div class="flex items-center">
+              <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_68)">
+                <path d="M11.4341 3.18958H0.668518C0.465393 3.18958 0.363831 3.08801 0.363831 2.88489V2.07239C0.363831 1.86926 0.465393 1.7677 0.668518 1.7677H11.4341C11.6373 1.7677 11.7388 1.86926 11.7388 2.07239V2.88489C11.7388 3.08801 11.6373 3.18958 11.4341 3.18958ZM11.4341 7.25208H0.668518C0.465393 7.25208 0.363831 7.15051 0.363831 6.94739V6.13489C0.363831 5.93176 0.465393 5.8302 0.668518 5.8302H11.4341C11.6373 5.8302 11.7388 5.93176 11.7388 6.13489V6.94739C11.7388 7.15051 11.6373 7.25208 11.4341 7.25208ZM11.4341 11.3146H0.668518C0.465393 11.3146 0.363831 11.213 0.363831 11.0099V10.1974C0.363831 9.99426 0.465393 9.8927 0.668518 9.8927H11.4341C11.6373 9.8927 11.7388 9.99426 11.7388 10.1974V11.0099C11.7388 11.213 11.6373 11.3146 11.4341 11.3146Z" fill="#101213"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1_68">
+                <rect width="11.38" height="13" fill="white" transform="matrix(1 0 0 -1 0.361328 13.0411)"/>
+                </clipPath>
+                </defs>
+              </svg>
+              <p class="text-sm ms-2">Beginner</p>
+            </div>
+
+            <div class="flex items-center ms-5">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.6626 0.666138C13.3228 0.666138 13.8813 1.22473 13.8813 1.88489V10.0099C13.8813 10.6954 13.3228 11.2286 12.6626 11.2286H11.4438V12.4474C11.4438 13.1329 10.8853 13.6661 10.2251 13.6661H2.1001C1.41455 13.6661 0.881348 13.1329 0.881348 12.4474V4.32239C0.881348 3.66223 1.41455 3.10364 2.1001 3.10364H3.31885V1.88489C3.31885 1.22473 3.85205 0.666138 4.5376 0.666138H12.6626ZM10.0728 12.4474C10.1489 12.4474 10.2251 12.3966 10.2251 12.295V11.2286H4.5376C3.85205 11.2286 3.31885 10.6954 3.31885 10.0099V4.32239H2.25244C2.15088 4.32239 2.1001 4.39856 2.1001 4.47473V12.295C2.1001 12.3966 2.15088 12.4474 2.25244 12.4474H10.0728ZM12.5103 10.0099C12.5864 10.0099 12.6626 9.95911 12.6626 9.85754V2.03723C12.6626 1.96106 12.5864 1.88489 12.5103 1.88489H4.68994C4.58838 1.88489 4.5376 1.96106 4.5376 2.03723V9.85754C4.5376 9.95911 4.58838 10.0099 4.68994 10.0099H12.5103Z" fill="#101213"/>
+              </svg>
+              <p class="text-sm ms-2">3 Lessons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-4 gap-4 mt-7">
+      <div class="border-2">
+        <img src="src/assets/course-5.png" alt="">
+        <div class="p-4">
+          <p class="text-sm font-bold text-blue-900 my-2">Alen Mask</p>
+          <p class="text-lg font-bold">Why Learn Intermediate SQL for Marketers?</p>
+
+          <div class="flex my-4">
+            <div class="flex items-center">
+              <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_68)">
+                <path d="M11.4341 3.18958H0.668518C0.465393 3.18958 0.363831 3.08801 0.363831 2.88489V2.07239C0.363831 1.86926 0.465393 1.7677 0.668518 1.7677H11.4341C11.6373 1.7677 11.7388 1.86926 11.7388 2.07239V2.88489C11.7388 3.08801 11.6373 3.18958 11.4341 3.18958ZM11.4341 7.25208H0.668518C0.465393 7.25208 0.363831 7.15051 0.363831 6.94739V6.13489C0.363831 5.93176 0.465393 5.8302 0.668518 5.8302H11.4341C11.6373 5.8302 11.7388 5.93176 11.7388 6.13489V6.94739C11.7388 7.15051 11.6373 7.25208 11.4341 7.25208ZM11.4341 11.3146H0.668518C0.465393 11.3146 0.363831 11.213 0.363831 11.0099V10.1974C0.363831 9.99426 0.465393 9.8927 0.668518 9.8927H11.4341C11.6373 9.8927 11.7388 9.99426 11.7388 10.1974V11.0099C11.7388 11.213 11.6373 11.3146 11.4341 11.3146Z" fill="#101213"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1_68">
+                <rect width="11.38" height="13" fill="white" transform="matrix(1 0 0 -1 0.361328 13.0411)"/>
+                </clipPath>
+                </defs>
+              </svg>
+              <p class="text-sm ms-2">Beginner</p>
+            </div>
+
+            <div class="flex items-center ms-5">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.6626 0.666138C13.3228 0.666138 13.8813 1.22473 13.8813 1.88489V10.0099C13.8813 10.6954 13.3228 11.2286 12.6626 11.2286H11.4438V12.4474C11.4438 13.1329 10.8853 13.6661 10.2251 13.6661H2.1001C1.41455 13.6661 0.881348 13.1329 0.881348 12.4474V4.32239C0.881348 3.66223 1.41455 3.10364 2.1001 3.10364H3.31885V1.88489C3.31885 1.22473 3.85205 0.666138 4.5376 0.666138H12.6626ZM10.0728 12.4474C10.1489 12.4474 10.2251 12.3966 10.2251 12.295V11.2286H4.5376C3.85205 11.2286 3.31885 10.6954 3.31885 10.0099V4.32239H2.25244C2.15088 4.32239 2.1001 4.39856 2.1001 4.47473V12.295C2.1001 12.3966 2.15088 12.4474 2.25244 12.4474H10.0728ZM12.5103 10.0099C12.5864 10.0099 12.6626 9.95911 12.6626 9.85754V2.03723C12.6626 1.96106 12.5864 1.88489 12.5103 1.88489H4.68994C4.58838 1.88489 4.5376 1.96106 4.5376 2.03723V9.85754C4.5376 9.95911 4.58838 10.0099 4.68994 10.0099H12.5103Z" fill="#101213"/>
+              </svg>
+              <p class="text-sm ms-2">3 Lessons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-2">
+        <img src="src/assets/course-6.png" alt="">
+        <div class="p-4">
+          <p class="text-sm font-bold text-blue-900 my-2">Alen Mask</p>
+          <p class="text-lg font-bold">Why Learn Intermediate SQL for Marketers?</p>
+
+          <div class="flex my-4">
+            <div class="flex items-center">
+              <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_68)">
+                <path d="M11.4341 3.18958H0.668518C0.465393 3.18958 0.363831 3.08801 0.363831 2.88489V2.07239C0.363831 1.86926 0.465393 1.7677 0.668518 1.7677H11.4341C11.6373 1.7677 11.7388 1.86926 11.7388 2.07239V2.88489C11.7388 3.08801 11.6373 3.18958 11.4341 3.18958ZM11.4341 7.25208H0.668518C0.465393 7.25208 0.363831 7.15051 0.363831 6.94739V6.13489C0.363831 5.93176 0.465393 5.8302 0.668518 5.8302H11.4341C11.6373 5.8302 11.7388 5.93176 11.7388 6.13489V6.94739C11.7388 7.15051 11.6373 7.25208 11.4341 7.25208ZM11.4341 11.3146H0.668518C0.465393 11.3146 0.363831 11.213 0.363831 11.0099V10.1974C0.363831 9.99426 0.465393 9.8927 0.668518 9.8927H11.4341C11.6373 9.8927 11.7388 9.99426 11.7388 10.1974V11.0099C11.7388 11.213 11.6373 11.3146 11.4341 11.3146Z" fill="#101213"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1_68">
+                <rect width="11.38" height="13" fill="white" transform="matrix(1 0 0 -1 0.361328 13.0411)"/>
+                </clipPath>
+                </defs>
+              </svg>
+              <p class="text-sm ms-2">Beginner</p>
+            </div>
+
+            <div class="flex items-center ms-5">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.6626 0.666138C13.3228 0.666138 13.8813 1.22473 13.8813 1.88489V10.0099C13.8813 10.6954 13.3228 11.2286 12.6626 11.2286H11.4438V12.4474C11.4438 13.1329 10.8853 13.6661 10.2251 13.6661H2.1001C1.41455 13.6661 0.881348 13.1329 0.881348 12.4474V4.32239C0.881348 3.66223 1.41455 3.10364 2.1001 3.10364H3.31885V1.88489C3.31885 1.22473 3.85205 0.666138 4.5376 0.666138H12.6626ZM10.0728 12.4474C10.1489 12.4474 10.2251 12.3966 10.2251 12.295V11.2286H4.5376C3.85205 11.2286 3.31885 10.6954 3.31885 10.0099V4.32239H2.25244C2.15088 4.32239 2.1001 4.39856 2.1001 4.47473V12.295C2.1001 12.3966 2.15088 12.4474 2.25244 12.4474H10.0728ZM12.5103 10.0099C12.5864 10.0099 12.6626 9.95911 12.6626 9.85754V2.03723C12.6626 1.96106 12.5864 1.88489 12.5103 1.88489H4.68994C4.58838 1.88489 4.5376 1.96106 4.5376 2.03723V9.85754C4.5376 9.95911 4.58838 10.0099 4.68994 10.0099H12.5103Z" fill="#101213"/>
+              </svg>
+              <p class="text-sm ms-2">3 Lessons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-2">
+        <img src="src/assets/course-7.png" alt="">
+        <div class="p-4">
+          <p class="text-sm font-bold text-blue-900 my-2">Alen Mask</p>
+          <p class="text-lg font-bold">Why Learn Intermediate SQL for Marketers?</p>
+
+          <div class="flex my-4">
+            <div class="flex items-center">
+              <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_68)">
+                <path d="M11.4341 3.18958H0.668518C0.465393 3.18958 0.363831 3.08801 0.363831 2.88489V2.07239C0.363831 1.86926 0.465393 1.7677 0.668518 1.7677H11.4341C11.6373 1.7677 11.7388 1.86926 11.7388 2.07239V2.88489C11.7388 3.08801 11.6373 3.18958 11.4341 3.18958ZM11.4341 7.25208H0.668518C0.465393 7.25208 0.363831 7.15051 0.363831 6.94739V6.13489C0.363831 5.93176 0.465393 5.8302 0.668518 5.8302H11.4341C11.6373 5.8302 11.7388 5.93176 11.7388 6.13489V6.94739C11.7388 7.15051 11.6373 7.25208 11.4341 7.25208ZM11.4341 11.3146H0.668518C0.465393 11.3146 0.363831 11.213 0.363831 11.0099V10.1974C0.363831 9.99426 0.465393 9.8927 0.668518 9.8927H11.4341C11.6373 9.8927 11.7388 9.99426 11.7388 10.1974V11.0099C11.7388 11.213 11.6373 11.3146 11.4341 11.3146Z" fill="#101213"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1_68">
+                <rect width="11.38" height="13" fill="white" transform="matrix(1 0 0 -1 0.361328 13.0411)"/>
+                </clipPath>
+                </defs>
+              </svg>
+              <p class="text-sm ms-2">Beginner</p>
+            </div>
+
+            <div class="flex items-center ms-5">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.6626 0.666138C13.3228 0.666138 13.8813 1.22473 13.8813 1.88489V10.0099C13.8813 10.6954 13.3228 11.2286 12.6626 11.2286H11.4438V12.4474C11.4438 13.1329 10.8853 13.6661 10.2251 13.6661H2.1001C1.41455 13.6661 0.881348 13.1329 0.881348 12.4474V4.32239C0.881348 3.66223 1.41455 3.10364 2.1001 3.10364H3.31885V1.88489C3.31885 1.22473 3.85205 0.666138 4.5376 0.666138H12.6626ZM10.0728 12.4474C10.1489 12.4474 10.2251 12.3966 10.2251 12.295V11.2286H4.5376C3.85205 11.2286 3.31885 10.6954 3.31885 10.0099V4.32239H2.25244C2.15088 4.32239 2.1001 4.39856 2.1001 4.47473V12.295C2.1001 12.3966 2.15088 12.4474 2.25244 12.4474H10.0728ZM12.5103 10.0099C12.5864 10.0099 12.6626 9.95911 12.6626 9.85754V2.03723C12.6626 1.96106 12.5864 1.88489 12.5103 1.88489H4.68994C4.58838 1.88489 4.5376 1.96106 4.5376 2.03723V9.85754C4.5376 9.95911 4.58838 10.0099 4.68994 10.0099H12.5103Z" fill="#101213"/>
+              </svg>
+              <p class="text-sm ms-2">3 Lessons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-2">
+        <img src="src/assets/course-8.png" alt="">
+        <div class="p-4">
+          <p class="text-sm font-bold text-blue-900 my-2">Alen Mask</p>
+          <p class="text-lg font-bold">Why Learn Intermediate SQL for Marketers?</p>
+
+          <div class="flex my-4">
+            <div class="flex items-center">
+              <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_68)">
+                <path d="M11.4341 3.18958H0.668518C0.465393 3.18958 0.363831 3.08801 0.363831 2.88489V2.07239C0.363831 1.86926 0.465393 1.7677 0.668518 1.7677H11.4341C11.6373 1.7677 11.7388 1.86926 11.7388 2.07239V2.88489C11.7388 3.08801 11.6373 3.18958 11.4341 3.18958ZM11.4341 7.25208H0.668518C0.465393 7.25208 0.363831 7.15051 0.363831 6.94739V6.13489C0.363831 5.93176 0.465393 5.8302 0.668518 5.8302H11.4341C11.6373 5.8302 11.7388 5.93176 11.7388 6.13489V6.94739C11.7388 7.15051 11.6373 7.25208 11.4341 7.25208ZM11.4341 11.3146H0.668518C0.465393 11.3146 0.363831 11.213 0.363831 11.0099V10.1974C0.363831 9.99426 0.465393 9.8927 0.668518 9.8927H11.4341C11.6373 9.8927 11.7388 9.99426 11.7388 10.1974V11.0099C11.7388 11.213 11.6373 11.3146 11.4341 11.3146Z" fill="#101213"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_1_68">
+                <rect width="11.38" height="13" fill="white" transform="matrix(1 0 0 -1 0.361328 13.0411)"/>
+                </clipPath>
+                </defs>
+              </svg>
+              <p class="text-sm ms-2">Beginner</p>
+            </div>
+
+            <div class="flex items-center ms-5">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.6626 0.666138C13.3228 0.666138 13.8813 1.22473 13.8813 1.88489V10.0099C13.8813 10.6954 13.3228 11.2286 12.6626 11.2286H11.4438V12.4474C11.4438 13.1329 10.8853 13.6661 10.2251 13.6661H2.1001C1.41455 13.6661 0.881348 13.1329 0.881348 12.4474V4.32239C0.881348 3.66223 1.41455 3.10364 2.1001 3.10364H3.31885V1.88489C3.31885 1.22473 3.85205 0.666138 4.5376 0.666138H12.6626ZM10.0728 12.4474C10.1489 12.4474 10.2251 12.3966 10.2251 12.295V11.2286H4.5376C3.85205 11.2286 3.31885 10.6954 3.31885 10.0099V4.32239H2.25244C2.15088 4.32239 2.1001 4.39856 2.1001 4.47473V12.295C2.1001 12.3966 2.15088 12.4474 2.25244 12.4474H10.0728ZM12.5103 10.0099C12.5864 10.0099 12.6626 9.95911 12.6626 9.85754V2.03723C12.6626 1.96106 12.5864 1.88489 12.5103 1.88489H4.68994C4.58838 1.88489 4.5376 1.96106 4.5376 2.03723V9.85754C4.5376 9.95911 4.58838 10.0099 4.68994 10.0099H12.5103Z" fill="#101213"/>
+              </svg>
+              <p class="text-sm ms-2">3 Lessons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- membership -->
+  <div class="container mx-auto py-12 px-32 bg-red-100"> 
+      <div class="flex items-center">
+        <div class="">  
+          <img src="src/assets/membership-image.png" alt="" class="w-44">       
+        </div>
+        <div class="ms-16">
+          <p class="font-bold text-3xl">Dapatkan membership Pro</p>
+          <p class="font-bold text-3xl">GRATIS untuk kelas kamu.</p>
+        </div>
+        <div class="ms-40">      
+          <button class="flex bg-blue-700 text-white py-2 ps-7 pe-10 rounded items-center">
+            <span>Lihat semua kelas.</span>
+          </button>   
+        </div>
+      </div>
+  </div>
+
+  <!-- kategori -->
+  <div class="container mx-auto py-12 px-32">
+    <p class="text-center font-bold text-3xl mt-5 mb-10">kategori populer</p>
+
+    <div class="grid grid-cols-4 gap-4">
+      <div class="flex items-center bg-white rounded-md">
+        <div class="py-4 ps-7">
+          <img src="src/assets/icon-chemical.svg" alt="">
+        </div>
+        <div class="p-4">
+          <p class="text-xl font-bold">Kimia</p>
+          <p class="text-sm">2 kelas</p>
+        </div>
+      </div>
+
+      <div class="flex items-center bg-white rounded-md">
+        <div class="py-4 ps-7">
+          <img src="src/assets/icon-calendar.svg" alt="">
+        </div>
+        <div class="p-4">
+          <p class="text-xl font-bold">Managemen</p>
+          <p class="text-sm">2 kelas</p>
+        </div>
+      </div>
+
+      <div class="flex items-center bg-white rounded-md">
+        <div class="py-4 ps-7">
+          <img src="src/assets/icon-pencil-ruler.svg" alt="">
+        </div>
+        <div class="p-4">
+          <p class="text-xl font-bold">Seni Budaya</p>
+          <p class="text-sm">2 kelas</p>
+        </div>
+      </div>
+
+      <div class="flex items-center bg-white rounded-md">
+        <div class="py-4 ps-7">
+          <img src="src/assets/icon-briefcase.svg" alt="">
+        </div>
+        <div class="p-4">
+          <p class="text-xl font-bold">Bisnis</p>
+          <p class="text-sm">2 kelas</p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="grid grid-cols-4 gap-4 mt-6">
+      <div class="flex items-center bg-white rounded-md">
+        <div class="py-4 ps-7">
+          <img src="src/assets/icon-science.svg" alt="">
+        </div>
+        <div class="p-4">
+          <p class="text-xl font-bold">Astrologi</p>
+          <p class="text-sm">2 kelas</p>
+        </div>
+      </div>
+
+      <div class="flex items-center bg-white rounded-md">
+        <div class="py-4 ps-7">
+          <img src="src/assets/icon-rocket.png" alt="">
+        </div>
+        <div class="p-4">
+          <p class="text-xl font-bold">SEO</p>
+          <p class="text-sm">2 kelas</p>
+        </div>
+      </div>
+
+      <div class="flex items-center bg-white rounded-md">
+        <div class="py-4 ps-7">
+          <img src="src/assets/icon-space.svg" alt="">
+        </div>
+        <div class="p-4">
+          <p class="text-xl font-bold">kosmologi</p>
+          <p class="text-sm">2 kelas</p>
+        </div>
+      </div>
+
+      <div class="flex items-center bg-white rounded-md">
+        <div class="py-4 ps-7">
+          <img src="src/assets/icon-microscope.svg" alt="">
+        </div>
+        <div class="p-4">
+          <p class="text-xl font-bold">Biologi</p>
+          <p class="text-sm">2 kelas</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex items-center justify-center">
+      <div class="">
+        <p class=" text-sm text-blue-900 font-bold mt-12 mb-10">Explore All Courses</p>
+      </div>
+      <div class="ms-2 mt-3">
+        <img src="src/assets/icon-double-next.svg" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- upgrade skill -->
+  <div class="container mx-auto py-12 px-32 ">
+    <div class="flex items-center bg-blue-100">
+      <div class="p-10 ms-20">
+        <img src="src/assets/business-image.png" alt="" class="w-64">
+      </div>
+      <div class="mx-20">
+        <p class="text-4xl font-bold ">Tingkatkan skill tim Anda.</p>
+        <p class="text-sm mt-5 font-light">Berikan tim anda pengetahuan, pengalaman dan keyakinan yang mereka butuhkan untuk mengatasi setiap masalah.</p>
+        <p class="text-sm font-light">Kami ingin menciptakan dunia dimana siapapun dapat membangun sesuatu yang bermakna.</p>
+
+        <button class="flex mt-7 bg-blue-700 text-white py-2 px-5 rounded items-center">
+          <span>Try For Business</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- event -->
+  <div class="container mx-auto py-12 px-32">
+    <p class="text-center font-bold text-3xl mt-5 mb-10">Event sedang berlangsung didekatmu</p>
+
+    <div class="grid grid-cols-3 gap-4">
+      <div class="">
+        <img src="src/assets/event-1.png" alt="">
+        <div class="flex items-center ">
+          <div class="border-r-4 pe-4 me-4 my-4">
+            <p class="text-center text-2xl text-blue-900 font-bold">21</p>
+            <p class="text-center text-xs text-blue-900 font-semibold">march</p>
+          </div>
+          <div class="flex">
+            <img src="src/assets/icon-location.svg" alt="">
+            <p class="ms-2 text-blue-900 text-xs">North Caroline United States</p>
+          </div>
+        </div>
+        <div class="">
+          <p class="text-xl font-bold">Linear Regression in Python: Introduction to Simple Linear</p>
+        </div>
+      </div>
+
+      <div class="">
+        <img src="src/assets/event-2.png" alt="">
+        <div class="flex items-center ">
+          <div class="border-r-4 pe-4 me-4 my-4">
+            <p class="text-center text-2xl text-blue-900 font-bold">21</p>
+            <p class="text-center text-xs text-blue-900 font-semibold">march</p>
+          </div>
+          <div class="flex">
+            <img src="src/assets/icon-location.svg" alt="">
+            <p class="ms-2 text-blue-900 text-xs">North Caroline United States</p>
+          </div>
+        </div>
+        <div class="">
+          <p class="text-xl font-bold">Linear Regression in Python: Introduction to Simple Linear</p>
+        </div>
+      </div>
+
+      <div class="">
+        <img src="src/assets/event-3.png" alt="">
+        <div class="flex items-center ">
+          <div class="border-r-4 pe-4 me-4 my-4">
+            <p class="text-center text-2xl text-blue-900 font-bold">21</p>
+            <p class="text-center text-xs text-blue-900 font-semibold">march</p>
+          </div>
+          <div class="flex">
+            <img src="src/assets/icon-location.svg" alt="">
+            <p class="ms-2 text-blue-900 text-xs">North Caroline United States</p>
+          </div>
+        </div>
+        <div class="">
+          <p class="text-xl font-bold">Linear Regression in Python: Introduction to Simple Linear</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container mx-auto py-12 px-32 bg-zinc-800">
+    <div class="grid grid-cols-4 gap-5">
+      <div class="">
+        <img src="src/assets/logo-ligasmk-white.png" alt="">
+        <p class="mt-5 text-white text-sm">Mengubah kehidupan, bisnis dan bangsa melalui transformasi talenta di bidang teknologi digital</p>
+        <div class="flex mt-5 gap-6">
+          <img src="src/assets/icon-facebook-white.svg" alt="">
+          <img src="src/assets/icon-twitter-white.svg" alt="">
+          <img src="src/assets/icon-linkedin-white.svg" alt="">
+          <img src="src/assets/icon-youtube-white.svg" alt="">
+        </div>
+      </div>
+
+      <div class="">
+        <p class="text-white font-semibold">Resources</p>
+        <p class="text-white text-sm opacity-60 mt-7">Build Career</p>
+        <p class="text-white text-sm opacity-60 mt-3">Explore Subject</p>
+        <p class="text-white text-sm opacity-60 mt-3">Gain a Skill</p>
+      </div>
+
+      <div class="">
+        <p class="text-white font-semibold">Support</p>
+        <p class="text-white text-sm opacity-60 mt-7">Web Development</p>
+        <p class="text-white text-sm opacity-60 mt-3">Data Science</p>
+        <p class="text-white text-sm opacity-60 mt-3">Machine Learning</p>
+        <p class="text-white text-sm opacity-60 mt-3">Developer Tools</p>
+        <p class="text-white text-sm opacity-60 mt-3">Web Design</p>
+      </div>
+
+      <div class="">
+        <p class="text-white font-semibold">Download Now</p>
+        <img src="src/assets/logo-appstore.png" alt="" class="mt-7 bg-stone-200 p-1 rounded-md">
+        <img src="src/assets/logo-googleplay.png" alt="" class="mt-4 bg-stone-200 p-1 rounded-md">
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
